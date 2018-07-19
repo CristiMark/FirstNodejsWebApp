@@ -14,8 +14,8 @@ function send404Response(response) {
 function OnRequest(request, response) {
     if (request.method == 'GET' && request.url == '/')
     {
-        request.writeHead(200, { "Content-Type": "text/html" });
-        fs.createRedStream("./index.html").pipe(response);
+        response.writeHead(200, { "Content-Type": "text/html" });
+        fs.createReadStream("./index.html").pipe(response);
     } else
     {
         send404Response(response);
