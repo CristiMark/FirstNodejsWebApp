@@ -1,0 +1,9 @@
+{
+  "name": "first-nodejs-web-app",
+  "version": "0.0.0",
+  "description": "FirstNodejsWebApp",
+  "main": "server.js",
+  "author": {
+    "name": "cristian.keisz"
+  }
+}
