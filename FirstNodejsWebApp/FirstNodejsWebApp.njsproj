@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d6680724-a48f-4011-bfea-9d44e2b4e662</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>Connect.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Connect.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="server.js" />
     <Content Include="index.html">
       <SubType>Code</SubType>

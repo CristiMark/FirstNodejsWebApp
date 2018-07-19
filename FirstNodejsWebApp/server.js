@@ -3,6 +3,7 @@
 'use strict';
 var http = require('http');
 var fs = require('fs');
+
 var port = process.env.PORT || 1337;
 
 function send404Response(response) {
